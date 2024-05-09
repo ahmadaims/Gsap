@@ -27,12 +27,12 @@
   </div>
   <script>
     gsap.registerPlugin(ScrollTrigger);
-
+  
     const bodyScrollBar = Scrollbar.init(document.body, {
       damping: 0.1,
       delegateTo: document,
       alwaysShowTracks: true,
-      speed: 0.2,
+      speed: 0.1,
     });
     ScrollTrigger.scrollerProxy("body", {
       scrollTop(value) {
@@ -48,6 +48,7 @@
     });
     gsap.to(".text p", {
       backgroundPositionX: "0%",
+      duration: 5, // Adjust the duration here (in seconds)
       stagger: 1,
       scrollTrigger: {
         trigger: ".text p",
