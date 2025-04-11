@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+  background: #171717;
+}
+#box{
+  width: 300px;
+  height: 300px;
+  background-color: crimson;
+}
+#box2{
+  width: 300px;
+  height: 300px;
+  background-color: lightcoral;
+}
+h1{
+  opacity: 0;
+}
